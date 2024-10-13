@@ -15,14 +15,14 @@ public class MyJDBC {
             );
             Statement statement = connection.createStatement();
 
-            cornice("Inserimento utente");
-
-            System.out.print("Nome: ");
-            String nome_utente = scanner.nextLine();
-            System.out.print("Password: ");
-            String password_utente = scanner.nextLine();
-
-            inserisciUtente(statement, nome_utente, password_utente);
+//            cornice("Inserimento utente");
+//
+//            System.out.print("Nome: ");
+//            String nome_utente = scanner.nextLine();
+//            System.out.print("Password: ");
+//            String password_utente = scanner.nextLine();
+//
+//            inserisciUtente(statement, nome_utente, password_utente);
 
 //            svuotaTabella(statement);
 
